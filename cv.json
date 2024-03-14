@@ -1,0 +1,131 @@
+{
+    "basics": {
+      "name": "Gerardo Mexicano Aguilar",
+      "label": "Animado por Programación, Tecnología, VideoJuegos, Seguir aprendiendo",
+      "image": "/me.webp",
+      "email": "gerardo.mexicano.a@gmail.com",
+      "phone": "2471398683",
+      "url": "https://gerardmdev.com/",
+      "summary": "Me apasiona el desarrollo de software en áreas de aprendizaje automático, programación web y desarrollo de sistemas embebidos. Mis capacidades pueden ser un aporte valioso al abordar problemas, ya que he construido mi camino en la resolución de obstáculos a través del desarrollo de software.",
+      "location": {
+        "address": "",
+        "postalCode": "90583",
+        "city": "Ixtenco",
+        "countryCode": "MX",
+        "region": "Tlaxcala, Mexico"
+      },
+      "profiles": [{
+        "network": "linkedln",
+        "username": "Gerardo Mexicano",
+        "url": "https://www.linkedin.com/in/gerardo-mexicano-1770a825b/"
+      },
+      {
+        "network": "GitHub",
+        "username": "gerardoMexicano",
+        "url": "https://github.com/gerardoMexicano"
+      }]
+    },
+    "work": [{
+      "name": "",
+      "position": "",
+      "url": "",
+      "startDate": "",
+      "endDate": "",
+      "summary": "",
+      "highlights": [
+        ""
+      ]
+    }],
+    "volunteer": [],
+    "practicas":[
+    {
+        "organization": "Biobotix Academy",
+        "position": "Desarrollador Full Stack",
+        "url": "https://academy.biobotixlabs.com/",
+        "startDate": "2023-02-02",
+        "endDate": "2023-06-21",
+        "summary": "Trabajé en una aplicaciónweb que será utilizada para la venta de cursos en línea. Realice diversos módulos que incluían la parte del backend con la base de datos hasta el diseño de lasplantillas que mostrarían los datos. Registro de nuevos usuarios, Carrito de compras,integración de métodos de pago con API de Stripe y de Paypal.",
+        "highlights": [
+          ""
+        ]
+      },
+      {
+      "organization": "Red nacional última milla",
+      "position": "Desarrollador de software",
+      "startDate": "2022-08-27",
+      "endDate": "2022-12-09",
+      "summary": "Desarrollo de un proyecto bot para la aplicación de Telegram. Diseño de la base de datos para el almacenamiento de la información, construir una interfaz gráfica, generar reportes en Excel. Mis actividades incluyeron: Levantamiento de requerimientos, codificación basada en requerimientos y documentación.",
+      "highlights": [
+        ""
+      ]
+    }],
+    "education": [{
+      "institution": "Universidad Politécnica de Tlaxcala",
+      "url": "https://institution.com/",
+      "area": "Tecnologías de la Información",
+      "studyType": "Ingeniería",
+      "startDate": "2019-09-02",
+      "endDate": "2023-07-13",
+      "score": "87.0",
+      "courses": [
+        "DB1101 - Basic SQL"
+      ]
+    }],
+    "awards": [{
+      "title": "Beca Mejores 1000",
+      "date": "2019",
+      "awarder": "Estado de Tlaxcala",
+      "summary": "Mejores resultados En examen"
+    }],
+    "certificates": [{
+      "name": "",
+      "date": "",
+      "issuer": "",
+      "url": ""
+    }],
+    "publications": [{
+      "name": "",
+      "publisher": "",
+      "releaseDate": "",
+      "url":"",
+      "summary":"" 
+    }],
+    "skills": [{
+      "name": "Web Development",
+      "level": "Master",
+      "keywords": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ]
+    }],
+    "languages": [{
+        "language": "Español",
+        "fluency": "lengua nativa"
+      },
+      {
+      "language": "English",
+      "fluency": "B1"
+    }],
+    "interests": [{
+      "name": "Wildlife",
+      "keywords": [
+        "Ferrets",
+        "Unicorns"
+      ]
+    }],
+    "references": [{
+      "name": "",
+      "reference": ""
+    }],
+    "projects": [{
+      "name": "Project",
+      "startDate": "2019-01-01",
+      "endDate": "2021-01-01",
+      "description": "Description...",
+      "highlights": [
+        ""
+      ],
+      "url": ""
+    }]
+  }

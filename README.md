@@ -52,3 +52,11 @@ All commands are run from the root of the project, from a terminal:
 ## 👀 Want to learn more?
 
 Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+
+
+Schema del JSon de CV:
+https://jsonresume.org/schema/
+
+basado en el diseño de 
+https://www.youtube.com/watch?v=Zwh92LTB-Bk
+https://github.com/BartoszJarocki/cv
