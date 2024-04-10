@@ -5,15 +5,21 @@ import Mail from "@/icons/Mail.astro"
 import Phone from "@/icons/Phone.astro"
 import X from "@/icons/X.astro"
 import GitHub from "@/icons/GitHub.astro"
-import linkedln from "@/icons/Linkedln.astro"
+import LinkedIn from "@/icons/LinkedIn.astro"
 import WordMap from "@/icons/WordMap.astro"
+import { boolean } from "astro/zod"
 const { name, label, image,location, profiles, phone, email}= basics
 const { city,region}= location
 const SOCIAL_ICONS: Record<string, any>={
     GitHub,
-    linkedln,
+    LinkedIn,
     X
 }
+
+
+const linkedinInfo = profiles.find(({network}) => network ==="LinkedIn")
+const linkedUrl= linkedinInfo?.url
+const printInfo=[email,phone,linkedUrl].filter(Boolean).join("•")
 ---
 <Section>
     <div class="container">
@@ -24,7 +30,11 @@ const SOCIAL_ICONS: Record<string, any>={
                 <WordMap/>
                 {city}, {region}
             </span>
-            <footer>
+            
+                <footer class="print">
+                    {printInfo}
+                </footer>
+                <footer class="no-print">
                 {
                     email && (
                         <a href= {`mailto:${email}`}
@@ -96,7 +106,7 @@ const SOCIAL_ICONS: Record<string, any>={
         aspect-ratio: 1 / 1.1;
         object-fit: cover ;
         width: 128px;
-        border-radius: 6px;
+        border-radius: 16px;
 
     }
     span{
@@ -108,6 +118,8 @@ const SOCIAL_ICONS: Record<string, any>={
         letter-spacing:-0.05rem;
     }
     footer{
+        color: #555;
+        font-size: 0.65rem;
         display: flex;
         gap: 4px;
         margin-top: 8px;
@@ -126,5 +138,18 @@ const SOCIAL_ICONS: Record<string, any>={
     }
     footer a:hover{
        background: #eee;
+    }
+    .print{
+        display:none;
+    }
+    @media print {
+        .print{
+            display: block;
+        }
+    }
+    @media print{
+    .no-print{
+        display: none;
+    }
     }
 </style>
