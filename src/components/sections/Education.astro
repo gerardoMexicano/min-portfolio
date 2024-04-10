@@ -1,8 +1,9 @@
 ---
 import Section from "../Section.astro"
 import {education, awards, certificates,languages} from  "@cv"
+
 ---
-<Section title="Education">
+<Section title="Educación">
     <ul>
         {
             education.map(
@@ -21,7 +22,8 @@ import {education, awards, certificates,languages} from  "@cv"
                                     <time>{years}</time>
                                     </header>
                                     <footer>
-                                        <!--{courses} -->
+                                        
+                                       <!-- {courses}--> 
 
                                         
                                     </footer>
@@ -33,6 +35,25 @@ import {education, awards, certificates,languages} from  "@cv"
            
 
         }
+        <h2>Idiomas</h2>
+        {
+            languages.map(
+                ({language,fluency})=>{
+                    return(
+                        <li>
+                            <article>
+                                <header>
+                                    <div>
+                                        <h3>{language}</h3>
+                                        <h4>{fluency}</h4>
+                                        </div>
+                                    </header>
+                                </article></li>
+                    )
+                }
+            )
+        }
+        <h2>premios</h2>
         {
              awards.map(
                 ({title,date})=>{
@@ -41,7 +62,7 @@ import {education, awards, certificates,languages} from  "@cv"
                             <article>
                                 <header>
                                     <div>
-                                    <h3>Premios</h3>
+                                    
                                     <h4>{title}</h4>
                                     </div>
                                     <time>{date}</time>
@@ -53,6 +74,7 @@ import {education, awards, certificates,languages} from  "@cv"
                 }
             )
         }
+        <h2>Certificaciones</h2>
         {
             certificates.map(
                 ({name,date,issuer,url})=>{
@@ -61,8 +83,10 @@ import {education, awards, certificates,languages} from  "@cv"
                             <article>
                                 <header>
                                     <div>
-                                        
+                                       <a class="tooltip" href={url} ><h3>{name}</h3><span class="tooltip-box">presiona sobre el titulo para ir a la certificacion</span></a> 
+                                        <h4>{issuer} </h4>
                                         </div>
+                                        <time>{date}</time>
                                     </header>
                                 </article>
                             </li>
@@ -70,22 +94,7 @@ import {education, awards, certificates,languages} from  "@cv"
                 }
             )
         }
-        {
-            languages.map(
-                ({language,fluency})=>{
-                    return(
-                        <li>
-                            <article>
-                                <header>
-                                    <div>
-                                        
-                                        </div>
-                                    </header>
-                                </article></li>
-                    )
-                }
-            )
-        }
+        
     </ul>
 </Section>
 <style>
@@ -95,20 +104,56 @@ import {education, awards, certificates,languages} from  "@cv"
     }
     article h3{
         color: #111;
+        margin: 0;
     }
     article h4{
         color: #222;
         font-weight: 400;
+        margin:0;
+
     }
     header{
         display:flex;
         justify-content: space-between;
         align-items: center;
-        margin-bottom: 4px;
+        margin-bottom: 2px;
     }
     time{
         color: #555;
         font-size: 0.85rem;
     }
-   
+    h2{
+        font-size: larger;
+    }
+    .tooltip{
+        position: relative;
+    }
+    .tooltip-box{
+        display: none;
+        position: absolute;
+        background: #000;
+        line-height: 20px;
+        z-index: 500;
+        text-align: center;
+        color:#fff;
+        padding: 5px 10px;
+        font-size: 16px;
+        border-radius: 5px;
+        left:0;
+        bottom: 30px;
+    }
+    .tooltip-box::after{
+        content: "";
+        display: block;
+        border-top: 7px solid #000;
+        border-left: 7px solid transparent;
+        border-right: 7px solid transparent;
+        position: absolute;
+        bottom: -7px;
+        left: calc(50% - 7px)
+
+    }
+    .tooltip:hover .tooltip-box{
+        display: inline-block;
+    }
 </style>

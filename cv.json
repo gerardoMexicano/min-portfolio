@@ -82,10 +82,16 @@
       "summary": "Mejores resultados En examen"
     }],
     "certificates": [{
-      "name": "",
-      "date": "",
-      "issuer": "",
-      "url": ""
+      "name": "Curso  Profesional de Git y GitHub",
+      "date": "2024",
+      "issuer": "Platzi",
+      "url": "https://platzi.com/p/GerardMdev/curso/1557-git-github/diploma/detalle/"
+    },
+    {
+      "name": "Responsive Web Design",
+      "date": "2024",
+      "issuer": "freeCodeCamp",
+      "url": "https://freecodecamp.org/certification/GerardmDev/responsive-web-design"
     }],
     "publications": [{
       "name": "",
@@ -95,14 +101,68 @@
       "summary":"" 
     }],
     "skills": [{
-      "name": "Web Development",
-      "level": "Master",
+      "name": "Java",
+      "level": "basics",
       "keywords": [
         "HTML",
         "CSS",
         "JavaScript"
       ]
-    }],
+    },{
+      "name": "HTML",
+      "level": "basics",
+      "keywords": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ]
+    },
+    {
+      "name": "Git",
+      "level": "basics",
+      "keywords": [
+      ]
+    },{
+      "name": "GitHub",
+      "level": "basics",
+      "keywords": [
+      ]
+    },
+    {
+      "name": "Linux",
+      "level": "basics",
+      "keywords": [
+      ]
+    },
+    {
+      "name": "Node",
+      "level": "basics",
+      "keywords": [
+      ]
+    },
+    {
+      "name": "MySQL",
+      "level": "basics",
+      "keywords": [
+      ]
+    },
+    {
+      "name": "Python",
+      "level": "basics",
+      "keywords": [
+      ]
+    },{
+      "name": "CSS",
+      "level": "basics",
+      "keywords": [
+      ]
+    },{
+      "name": "GO",
+      "level": "basics",
+      "keywords": [
+      ]
+    }
+  ],
     "languages": [{
         "language": "Español",
         "fluency": "lengua nativa"
