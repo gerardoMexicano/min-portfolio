@@ -62,13 +62,17 @@
     "education": [{
       "institution": "Universidad Politécnica de Tlaxcala",
       "url": "https://institution.com/",
-      "area": "Tecnologías de la Información",
-      "studyType": "Ingeniería",
+      "area": "Ingeniería",
+      "studyType": "Tecnologías de la Información",
       "startDate": "2019-09-02",
       "endDate": "2023-07-13",
       "score": "87.0",
       "courses": [
-        "DB1101 - Basic SQL"
+        "Base de datos SQL",
+        "Programacion orientada a objetos",
+        "programacion web",
+        "Fundamentos de Redes",
+        "Programacion movil"
       ]
     }],
     "awards": [{
