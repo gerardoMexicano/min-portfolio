@@ -157,7 +157,7 @@
       "keywords": [
       ]
     },{
-      "name": "GO",
+      "name": "Laravel",
       "level": "basics",
       "keywords": [
       ]
@@ -184,9 +184,54 @@
     }],
     "projects": [{
       "name": "Project",
+      "isActive": "Active or Complete or Proccess or Disabled ",
       "startDate": "2019-01-01",
       "endDate": "2021-01-01",
       "description": "Description...",
+      "highlights": [
+        ""
+      ],
+      "url": ""
+    },
+    {
+      "name": "Teclado",
+      "isActive": "Proccess",
+      "startDate": "2019-01-01",
+      "endDate": "2021-01-01",
+      "description": "",
+      "highlights": [
+        ""
+      ],
+      "url": ""
+    },
+    {
+      "name": "Acortador de URLS",
+      "isActive": "Active",
+      "startDate": "2019-01-01",
+      "endDate": "2021-01-01",
+      "description": "",
+      "highlights": [
+        ""
+      ],
+      "url": ""
+    },
+    {
+      "name": "Linux",
+      "isActive": "Complete",
+      "startDate": "2019-01-01",
+      "endDate": "2021-01-01",
+      "description": "",
+      "highlights": [
+        ""
+      ],
+      "url": "" 
+    },
+    {
+      "name": "api",
+      "isActive": "Disabled",
+      "startDate": "2019-01-01",
+      "endDate": "2021-01-01",
+      "description": "",
       "highlights": [
         ""
       ],
