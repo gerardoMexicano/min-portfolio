@@ -7,10 +7,10 @@ import Hero from '@/components/sections/Hero.astro';
 import Projects from '@/components/sections/Projects.astro';
 import Skills from '@/components/sections/Skills.astro';
 import KeyboardManager from '@/components/KeyboardManager.astro';
-
+import {basics}from "@cv"
 ---
 
-<Layout title="Portafolio ">
+<Layout title=`Portafolio de ${basics.name} - ${basics.label}`   >
 	<main>
 		<Hero />
 		<About />
@@ -18,6 +18,9 @@ import KeyboardManager from '@/components/KeyboardManager.astro';
 		<Education />
 		<Projects />
 		<Skills />
+		<audio id="audio" controls="true">
+			<source type="audio/mp3" src="/public/videoplayback.mp3">
+		 </audio>
 	</main>
 	<KeyboardManager/>
 </Layout>
@@ -27,5 +30,8 @@ import KeyboardManager from '@/components/KeyboardManager.astro';
 		padding: 4rem;
 		margin: auto;
 		width: 100%;
+	}
+	audio{
+		display: none;
 	}
 </style>

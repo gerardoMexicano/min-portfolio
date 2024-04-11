@@ -60,3 +60,6 @@ https://jsonresume.org/schema/
 basado en el diseño de 
 https://www.youtube.com/watch?v=Zwh92LTB-Bk
 https://github.com/BartoszJarocki/cv
+
+Agradecimiento A midudev este es mi primer proyecto y al ser de astro no hice la gran cosa agregue detallas y funcionalidades secretas   gracias siganlo en sus redes
+https://www.youtube.com/c/midudev

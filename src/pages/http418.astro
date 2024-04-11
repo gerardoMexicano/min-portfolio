@@ -1,0 +1,51 @@
+
+---
+import Layout from '@/layouts/Layout.astro'
+---
+<Layout title='http-418'>
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Error 418 - Soy una tetera</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                text-align: center;
+            }
+            .error-code {
+                font-size: 72px;
+                margin-top: 50px;
+            }
+            .error-message {
+                font-size: 24px;
+                margin-top: 20px;
+            }
+            .return-button {
+                margin-top: 30px;
+                padding: 10px 20px;
+                background-color: #007bff;
+                color: white;
+                border: none;
+                border-radius: 5px;
+                font-size: 16px;
+                cursor: pointer;
+            }
+            .return-button:hover {
+                background-color: #0056b3;
+            }
+            .centered-image {
+            display: block;
+            margin: 20px auto;
+            max-width: 300px;
+        }
+        </style>
+    </head>
+    <body>
+        <h1 class="error-code">Error 418</h1>
+        <img src="/tetera.webp" alt="Imagen de una tetera" class="centered-image">
+        <p class="error-message">¡Lo siento! Soy una tetera.</p>
+        <button class="return-button" onclick="location.href='/'">Volver</button>
+    </body>
+</Layout>
+

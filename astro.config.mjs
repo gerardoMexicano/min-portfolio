@@ -6,9 +6,7 @@ export default defineConfig({
         build: {
           assetsInlineLimit: 10240, // Cambiado a 10 KB
           
-        },ssr: {
-            inline: true, // Habilita la incrustación de scripts en línea durante la generación del servidor
-          }
+        }
         
       } 
 });
